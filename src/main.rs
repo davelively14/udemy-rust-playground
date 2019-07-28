@@ -1,5 +1,5 @@
-mod guessing;
+mod ownership;
 
 fn main() {
-    guessing::start();
+    ownership::run_examples();
 }
