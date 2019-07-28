@@ -5,7 +5,7 @@ pub fn start() {
   println!("Input guess:");
 
   let mut guess = String::new();
-  io::stdin().read_line(&mut guess);
+  io::stdin().read_line(&mut guess).unwrap();
 
   println!("You guessed: {}", guess);
 }
