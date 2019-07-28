@@ -1,3 +1,11 @@
+mod fib;
+
 fn main() {
-    println!("Hello, world!");
+    for i in 1..41 {
+        println!("{}: {}", i, fib::basic(i));
+    }
+
+    for i in 1..41 {
+        println!("{}: {}", i, fib::dynamic(i));
+    }
 }
