@@ -1,5 +1,5 @@
-mod ownership;
+mod structs;
 
 fn main() {
-    ownership::run_examples();
+    structs::run_examples();
 }
