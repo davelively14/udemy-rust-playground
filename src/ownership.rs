@@ -34,7 +34,7 @@ fn cap_values_borrowed(max: i32, v: &mut Vec<i32>) {
 pub fn run_examples() {
     let values = vec![1, 2, 3, 4, 5];
     let sum = take_ownership_sum(values);
-    println!("Can't tell you length of values. It was transfered to another fn and not returned.");
+    println!("Can't tell you length of values. It was moved to another fn");
     println!("Took ownership, values: {}", sum);
 
     let new_values = vec![1, 2, 3, 4, 5];
