@@ -1,5 +1,5 @@
-mod structs;
+mod matches;
 
 fn main() {
-    structs::run_examples();
+    matches::run_examples();
 }
