@@ -1,5 +1,5 @@
-mod fsm;
+mod traits;
 
 fn main() {
-    fsm::run_examples();
+    traits::run_examples();
 }
