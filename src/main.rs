@@ -1,5 +1,5 @@
-mod matches;
+mod fsm;
 
 fn main() {
-    matches::run_examples();
+    fsm::run_examples();
 }
