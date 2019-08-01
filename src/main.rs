@@ -1,5 +1,5 @@
-mod concurrency;
+mod barycenter;
 
 fn main() {
-    concurrency::run_examples();
+    barycenter::run_examples();
 }
