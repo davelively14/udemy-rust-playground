@@ -1,5 +1,5 @@
-mod traits;
+mod concurrency;
 
 fn main() {
-    traits::run_examples();
+    concurrency::run_examples();
 }
