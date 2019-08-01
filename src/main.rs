@@ -1,5 +1,5 @@
-mod barycenter;
+mod barycenter_iter;
 
 fn main() {
-    barycenter::run_examples();
+    barycenter_iter::run_examples();
 }
